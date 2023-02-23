@@ -1,0 +1,167 @@
+body {
+    margin:0px;
+    background-color:#0f120f;
+    color:#CCCCCC;
+    font-family:"Verdana", sans-serif;
+}
+
+h1, h2, h3, p {
+    margin-left:20px;
+}
+
+h1, h2 {
+    font-family:"Gill Sans", sans-serif;
+}
+
+p {
+    width:70%;
+}
+
+footer {
+    height:200px;
+    padding-top:30px;
+    padding-left:20px;
+    padding-bottom:30px;
+    background-color:#000000;
+}
+
+li {
+    display:inline;
+    list-style-type:none;
+    height:40px;
+    vertical-align:middle;
+}
+
+.headline {
+    text-align:center;
+}
+
+.footline {
+    height:200px;
+    float:left;
+    vertical-align:middle;
+}
+
+.footimg {
+    float:right;
+    align:right;
+    margin-right:30px;
+}
+
+.footp {
+    height:200px;
+    width:500px;
+    line-height:150px;
+}
+
+.topnav {
+    vertical-align:middle;
+    padding:15px;
+    background-color:#000000;
+}
+
+.navlink {
+    font-size:20px;
+    color:#CCCCCC;
+    padding:15px;
+    text-align:center;
+    text-decoration:none;
+}
+
+.navlink:hover {
+    background-color:#102010;
+    color:#85643c;
+}
+
+.container {
+    background-color:#888888;
+    width:80%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin:20px;
+}
+
+.section-title {
+    margin-top:40px;
+}
+
+
+.headline {
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:25px;
+}
+
+.headline h1,
+.headline h2,
+.headline h3,
+.headline p {
+    width:100%;
+    margin: 5px 0px 5px 0px;
+}
+
+.text-section {
+    width:90%;
+    margin:auto;
+    margin-bottom:25px;
+    padding:15px;
+}
+
+.card {
+    background-color:#65543c;
+    width:300px;
+    height:330px;
+    margin:20px;
+}
+
+.card h3 {
+    margin:10px;
+}
+
+.breakparent {
+    display:flex;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.breakcolumn {
+    text-align:center;
+    flex:40%;
+    padding:10px;
+}
+
+.breakimg {
+    height:500px;
+}
+
+.game-splash {
+    width:400px;
+    height:200px;
+    margin:20px;
+}
+
+#game-holder {
+    display:flex;
+    width:90%;
+    margin:auto;
+    flex-wrap: wrap;
+}
+
+#navlist {
+    display:inline;
+    list-style-type:none;
+}
+
+#row-one {
+    background-color:#283625;
+}
+
+#row-two {
+    background-color:#2c362b;
+}
+
+#row-three {
+    background-color:#30332f;
+}
+
